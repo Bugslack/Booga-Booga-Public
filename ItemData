@@ -11,7 +11,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 },
 
 ["Spirit Key"] = {
-pickupSound = "Pickup",
+pickupSound = "I love BoogaPickup",
 itemType = "object", -- others include Tools and Buildings
  -- 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4456783678",
