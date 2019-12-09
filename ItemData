@@ -19,7 +19,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 
 ["Log"] ={
 pickupSound = "Select Wood",
-itemType = "object", -- others include Tools and Buildings
+itemType = "object", --testing 
  -- 1,
 fuels = 75,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498306999",
