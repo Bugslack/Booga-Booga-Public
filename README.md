@@ -2,8 +2,8 @@
 Publically volunteered suggestions to portions of Booga Booga's code
 
 INDEX:
-(1) ItemData
-(2) ???
+- (1) ItemData
+- (2) ???
 
 
 
