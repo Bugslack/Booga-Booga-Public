@@ -15,4 +15,4 @@ ItemData is a Lua "array" which contains the name (key) of every object and its 
 - (2) ???
 
 DISCLAIMER:
-Any and all rights to an original work created for this Repository (such as code or text) are transferred to the rights holder of Booga Booga (Sawyer Nichols) upon acceptance of the Pull Request. Any public code in this repository may not be reappropriated (directly or indirectly) for any form of commercial gain.
+Any and all rights to an original work created for this Repository (such as code or text) are transferred to the rights holder of Booga Booga (Sawyer Nichols) upon acceptance of the Pull Request. Any publically viewable code in this repository may not be reappropriated (directly or indirectly) for any form of commercial gain by anyone other than the rights holder of Booga Booga. All code in this respository is susceptible to being used (in full or in part) in Booga Booga.
