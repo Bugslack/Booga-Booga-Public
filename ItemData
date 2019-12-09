@@ -214,7 +214,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 pickupSound = "Touch Stone E",
 itemType = "object",
  -- 1,
-coinValue = 1, --1/2,
+coinValue = 2, --1/2,
 craftLevel = 20,
 craftQuantity = 2,
 cooksTo = {
