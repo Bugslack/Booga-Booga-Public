@@ -673,7 +673,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 itemType = "armor",
 locus = "head",
 coinValue = 1, --1/3,
-absorb = 10,
+absorb = 6,
 pieces = {
 "Iron Helmet",
 },
@@ -689,7 +689,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 itemType = "armor",
 locus = "torso",
 coinValue = 1, --1/3,
-absorb = 10,
+absorb = 12,
 pieces = {
 "Iron Chestplate",
 "Iron Left Shoulder",
