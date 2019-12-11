@@ -1,8 +1,8 @@
 -- anon Image ID http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036
+
 local module = {
 
 -- OBJECTS
-
 ["Essence"] = {
 pickupSound = "Pickup",
 itemType = "object", -- others include Tools and Buildings
@@ -153,7 +153,6 @@ steps = 30,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4456727319",
 },
 
-
 ["Raw Copper"] ={
 pickupSound = "Touch Stone Valuable",
 itemType = "object",
@@ -172,7 +171,6 @@ itemType = "object",
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498028410",
 },
 
-
 ["Raw Silver"] ={
 pickupSound = "Touch Stone Valuable",
 itemType = "object",
@@ -190,7 +188,6 @@ itemType = "object",
  -- 1/2,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498026924",
 },
-
 
 ["Raw Gold"] ={
 pickupSound = "Touch Stone Valuable",
@@ -369,7 +366,6 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 },
 
 -- ARMORS
-
 ["Leaf Bag"] ={
 pickupSound = "Rough Cloth",
 itemType = "armor",
@@ -426,7 +422,6 @@ recipe = {
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450063502",
 },
-
 
 ["Steel Bag"] ={
 pickupSound = "Rough Cloth",
@@ -504,7 +499,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496727190",
 },
 
-
 ["Pink Diamond Bag"] ={
 pickupSound = "Rough Cloth",
 itemType = "armor",
@@ -559,11 +553,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1516891802",
 },
 
-
 ["Leaf Pants"] ={
 itemType = "armor",
 locus = "legs",
-protection = 3,
+absorb = 3,
 coinValue = 1, --1/5,
 pieces = {
 "Leaf Pants Left Foot",
@@ -579,12 +572,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449876460",
 },
 
-
-
 --["Leaf Cap"] ={
 --itemType = "armor",
 --locus = "head",
---protection = 2,
+--absorb = 2,
 --pieces = {},
 --craftLevel = 3,
 --recipe = {
@@ -593,12 +584,11 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 --craftQuantity = 1,
 --image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 --},
-
 
 --["Leaf Gloves"] ={
 --itemType = "armor",
 --locus = "arms",
---protection = 3,
+--absorb = 3,
 --pieces = {},
 --craftLevel = 3,
 --recipe = {
@@ -607,13 +597,12 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 --craftQuantity = 1,
 --image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 --},
-
 
 ["Leaf Shirt"] ={
 itemType = "armor",
 locus = "torso",
 coinValue = 1, --1/5,
-protection = 3,
+absorb = 3,
 pieces = {
 "Leaf Shirt",
 },
@@ -625,11 +614,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449890474",
 },
 
-
 ["Hide Pants"] ={
 itemType = "armor",
 locus = "legs",
-protection = 6,
+absorb = 6,
 coinValue = 1, --1/4,
 pieces = {
 "Hide Pants Left Foot",
@@ -645,11 +633,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449875764",
 },
 
-
 ["Hide Shirt"] ={
 itemType = "armor",
 locus = "torso",
-protection = 6,
+absorb = 6,
 coinValue = 1, --1/4,
 pieces = {
 "Hide Shirt",
@@ -662,11 +649,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449888093",
 },
 
-
 ["Iron Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 8,
+absorb = 8,
 coinValue = 1, --1/3,
 pieces = {
 "Iron Greaves Left Foot",
@@ -683,12 +669,11 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449889952",
 },
 
-
 ["Iron Helmet"] ={
 itemType = "armor",
 locus = "head",
 coinValue = 1, --1/3,
-protection = 10,
+absorb = 10,
 pieces = {
 "Iron Helmet",
 },
@@ -700,12 +685,11 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449895753",
 },
 
-
 ["Iron Chestplate"] ={
 itemType = "armor",
 locus = "torso",
 coinValue = 1, --1/3,
-protection = 10,
+absorb = 10,
 pieces = {
 "Iron Chestplate",
 "Iron Left Shoulder",
@@ -720,11 +704,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449889507",
 },
 
-
 ["Steel Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 10,
+absorb = 10,
 coinValue = 1, --1,
 pieces = {
 "Steel Greaves Left Foot",
@@ -741,11 +724,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449892109",
 },
 
-
 ["Steel Helmet"] ={
 itemType = "armor",
 locus = "head",
-protection = 10,
+absorb = 10,
 coinValue = 1, --1,
 pieces = {
 "Steel Helmet",
@@ -758,11 +740,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449896362",
 },
 
-
 ["Steel Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 10,
+absorb = 10,
 coinValue = 1, --1,
 pieces = {
 "Steel Chestplate",
@@ -781,7 +762,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Adurite Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 12,
+absorb = 12,
 coinValue = 1, --1,
 pieces = {
 "Adurite Greaves Left Foot",
@@ -799,11 +780,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1460139684",
 },
 
-
 ["Adurite Helmet"] ={
 itemType = "armor",
 locus = "head",
-protection = 12,
+absorb = 12,
 coinValue = 1, --1,
 pieces = {
 "Adurite Helmet",
@@ -817,11 +797,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1460138013",
 },
 
-
 ["Adurite Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 12,
+absorb = 12,
 coinValue = 1, --1,
 pieces = {
 "Adurite Chestplate",
@@ -841,7 +820,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Crystal Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 14,
+absorb = 14,
 coinValue = 1, --1,
 pieces = {
 "Crystal Greaves Left Foot",
@@ -861,7 +840,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Crystal Crown"] ={
 itemType = "armor",
 locus = "head",
-protection = 14,
+absorb = 14,
 coinValue = 1, --1,
 pieces = {
 "Crystal Crown",
@@ -878,7 +857,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Crystal Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 14,
+absorb = 14,
 coinValue = 1, --1,
 pieces = {
 "Crystal Chestplate",
@@ -894,11 +873,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1477932563",
 },
 
-
 ["Magnetite Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 16,
+absorb = 16,
 coinValue = 1, --1,
 pieces = {
 "Magnetite Greaves Left Foot",
@@ -914,11 +892,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496736292",
 },
 
-
 ["Magnetite Mask"] ={
 itemType = "armor",
 locus = "head",
-protection = 16,
+absorb = 16,
 coinValue = 1, --10,
 pieces = {
 "Magnetite Mask",
@@ -931,11 +908,10 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496716611",
 },
 
-
 ["Magnetite Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 16,
+absorb = 16,
 coinValue = 1, --10,
 pieces = {
 "Magnetite Chestplate",
@@ -953,7 +929,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Emerald Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Emerald Greaves Left Foot",
@@ -972,7 +948,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Emerald Helmet"] ={
 itemType = "armor",
 locus = "head",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Emerald Helmet",
@@ -988,7 +964,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Emerald Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Emerald Chestplate",
@@ -1006,7 +982,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Pink Diamond Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Pink Diamond Greaves Left Foot",
@@ -1025,7 +1001,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Pink Diamond Hood"] ={
 itemType = "armor",
 locus = "head",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Pink Diamond Hood",
@@ -1041,7 +1017,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Pink Diamond Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 18,
+absorb = 18,
 coinValue = 1, --20,
 pieces = {
 "Pink Diamond Chestplate",
@@ -1059,7 +1035,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["God Legs"] ={
 itemType = "armor",
 locus = "legs",
-protection = 25,
+absorb = 22,
 mojoRecipe = true,
 description = "Recipe for the God armor leg piece",
 coinValue = 1, --1,
@@ -1072,7 +1048,7 @@ pieces = {
 mojoCost = 1,
 craftLevel = 1,
 recipe = {
-["Gold"] = 20,
+["Gold"] = 6,
 ["Crystal"] = 6,
 },
 craftQuantity = 1,
@@ -1082,7 +1058,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["God Halo"] ={
 itemType = "armor",
 locus = "head",
-protection = 25,
+absorb = 22,
 coinValue = 1, --1,
 description = "Recipe for the God armor head piece",
 mojoRecipe = true,
@@ -1092,7 +1068,7 @@ pieces = {
 },
 craftLevel = 1,
 recipe = {
-["Gold"] = 20,
+["Gold"] = 6,
 ["Crystal"] = 6,
 },
 craftQuantity = 1,
@@ -1102,7 +1078,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["God Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 25,
+absorb = 45,
 coinValue = 1, --1,
 mojoRecipe = true,
 mojoCost = 1,
@@ -1114,18 +1090,18 @@ pieces = {
 },
 craftLevel = 1,
 recipe = {
-["Gold"] = 20,
-["Crystal"] = 6,
+["Gold"] = 12,
+["Crystal"] = 12,
 },
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1839224846",
 },
-
 ------
 ["Void Greaves"] ={
 itemType = "armor",
 locus = "legs",
-protection = 18,
+absorb = 18,
+voodooRegen = 1,
 description = "Recipe for the God armor leg piece",
 coinValue = 1, --1,
 pieces = {
@@ -1147,7 +1123,8 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Void Shroud"] ={
 itemType = "armor",
 locus = "head",
-protection = 18,
+absorb = 18,
+voodooRegen = 1,
 coinValue = 1, --1,
 description = "Recipe for the God armor head piece",
 pieces = {
@@ -1166,7 +1143,8 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Void Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-protection = 18,
+absorb = 18,
+voodooRegen = 1,
 coinValue = 1, --1,
 pieces = {
 "Void Chestplate",
@@ -1183,9 +1161,7 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2022521503",
 },
 
-
 -- BOATS
-
 ["Raft"] ={
 itemType = "boat",
 deployable = true,
@@ -1200,7 +1176,6 @@ craftQuantity = 1,
 drops = {"Log","Log"},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449997192",
 },
-
 
 ["Sailboat"] ={
 itemType = "boat",
@@ -1218,7 +1193,6 @@ craftQuantity = 1,
 drops = {"Log","Log","Log","Log","Log","Log","Leaves","Leaves","Leaves"},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1516010518",
 },
-
 
 ["Squad Raft"] ={
 itemType = "boat",
@@ -1265,7 +1239,6 @@ drops = {"Steel","Steel","Steel",},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449997908",
 },
 
-
 -- CREATURES
 ["Lurky Boi"] ={
 itemType = "creature",
@@ -1281,8 +1254,6 @@ physicsTether = 500,
 domesticVariant = "Domestic Boi",
 codeBase = "Shark",
 },
-
-
 
 ["Beached Boi"] = {
 itemType = "creature",
@@ -1364,7 +1335,6 @@ saddleLevel = 1,
 codeBase = "Baby Mammoth",
 },
 
-
 ["Baby Snow Mammoth"] ={
 itemType = "creature",
 health = 500,
@@ -1378,8 +1348,6 @@ saddleable = true,
 saddleLevel = 1,
 codeBase = "Baby Mammoth",
 },
-
-
 
 ["Happy Lil Banto"] ={
 itemType = "creature",
@@ -1550,7 +1518,6 @@ health = 25,
 drops = {"Raw Meat","Raw Meat"}
 },
 
-
 ["Domestic Banto"] = {
 itemType = "creature",
 health = 300,
@@ -1641,16 +1608,16 @@ codeBase = "Ant",
 itemType = "creature",
 health = 250,
 susceptions = {lifeforms = true},
-essence = 5,
+essence = 3,
 regenDuration = 60,
-drops = {"Raw Morsel","Raw Morsel","Ice Cube"},
+drops = {"Raw Meat","Raw Morsel","Ice Cube"},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 codeBase = "Ant",
 },
 
 ["Void Ant"] = {
 itemType = "creature",
-health = 400,
+health = 800,
 susceptions = {lifeforms = true},
 essence = 10,
 regenDuration = 180,
@@ -1664,7 +1631,7 @@ itemType = "creature",
 health = 250,
 susceptions = {lifeforms = true},
 essence = 3,
-regenDuration = 160,
+regenDuration = 60,
 drops = {"Raw Morsel","Raw Morsel"},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 codeBase = "Ant",
@@ -1672,7 +1639,7 @@ codeBase = "Ant",
 
 ["Scavenger Ant"] = {
 itemType = "creature",
-health = 25,
+health = 50,
 susceptions = {lifeforms = true},
 essence = 2,
 regenDuration = 60,
@@ -1683,37 +1650,37 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 
 ["Huge Ant"] = {
 itemType = "creature",
-health = 400,
+health = 800,
 susceptions = {lifeforms = true},
 essence = 7,
 drops = {"Raw Meat"},
-regenDuration = 300,
+regenDuration = 120,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 codeBase = "Ant",
 },
 
-
-
 ["Queen Ant"] = {
 itemType = "creature",
-health = 5000,
+health = 20000,
 susceptions = {lifeforms = true},
 essence = 20,
-drops = {"Raw Meat","Raw Meat","Raw Meat","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite",
-"Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite",
-"Raw Magnetite","Raw Magnetite","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold",
+drops = {
+"Raw Meat","Raw Meat","Raw Meat",
+"Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite",
+"Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite","Raw Magnetite",
 "Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold",
-"Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence",
+"Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold","Raw Gold",
+"Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence",
 "Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence",
 },
-regenDuration = 3600,
+regenDuration = 60*20,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 codeBase = "Ant",
 },
 
 ["Lost Soul"] = {
 itemType = "creature",
-health = 30,
+health = 201,
 susceptions = {lifeforms = true},
 essence = 5,
 drops = {"Jelly","Jelly"},
@@ -1725,7 +1692,7 @@ codeBase = "Hostile Spirit",
 
 ["Forgotten Soul"] = {
 itemType = "creature",
-health = 30,
+health = 201,
 susceptions = {lifeforms = true},
 essence = 5,
 drops = {},
@@ -1737,7 +1704,7 @@ codeBase = "Hostile Spirit",
 
 ["Giant"] = {
 itemType = "creature",
-health = 800,
+health = 8000,
 susceptions = {lifeforms = true},
 essence = 100,
 drops = {"Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence","Essence",
@@ -1965,8 +1932,6 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 codeBase = "Shelly",
 },
 
-
-
 ["Silver Shelly"] = {
 itemType = "creature",
 health = 50,
@@ -1978,7 +1943,6 @@ regenDuration = 480,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4823036",
 codeBase = "Shelly",
 },
-
 
 ["Gold Shelly"] = {
 itemType = "creature",
@@ -2078,7 +2042,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449995440",
 },
 
-
 ["Hut"] ={
 itemType = "building",
 deployable = true,
@@ -2130,8 +2093,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2021272439",
 },
 
-
-
 ["Big Ol' Hut"] ={
 itemType = "building",
 deployable = true,
@@ -2180,8 +2141,6 @@ rubble = "Wood Rubble",
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1477971971",
 },
-
-
 
 ["Coin Press"] ={
 itemType = "building",
@@ -2283,7 +2242,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449998678",
 },
 
-
 ["Dock"] ={
 itemType = "building",
 deployable = true,
@@ -2332,7 +2290,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449989168",
 },
 
-
 ["Grinder"] ={
 itemType = "building",
 deployable = true,
@@ -2348,7 +2305,6 @@ rubble = "Stone Rubble",
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1449993633",
 },
-
 
 ["Tower"] ={
 itemType = "building",
@@ -2410,7 +2366,6 @@ rubble = "Wood Wall Rubble",
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1749421538",
 },
-
 
 ["Iron Gate"] ={
 itemType = "building",
@@ -2476,7 +2431,6 @@ rubble = "Stone Wall Rubble",
 craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1749860014",
 },
-
 
 ["Ice Wall"] ={
 itemType = "building",
@@ -2555,8 +2509,6 @@ craftQuantity = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450002954",
 },
 
-
-
 -- Tools
 ["Rock Tool"] ={
 itemType = "tool",
@@ -2600,15 +2552,15 @@ coinValue = 1, --1/6,
 level = 1,
 craftLevel = 1,
 damages = {
-	wood = 8,
-	lifeforms = 15,
-	woodStructure = 8,
+	wood = 10,
+	lifeforms = 10,
+	woodStructure = 10,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Log"] = 1, ["Wood"] = 1,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450126036",
-}, -- end of Wood axe
+},
 
 ["Stone Axe"] ={
 itemType = "tool",
@@ -2618,12 +2570,12 @@ useType = "Slash",
 level = 2,
 craftLevel = 7,
 damages = {
-	wood = 10,
-	lifeforms = 11,
-	woodStructure = 10,
+	wood = 15,
+	lifeforms = 12,
+	woodStructure = 15,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Stone"] = 3, ["Wood"] = 1,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450126873",
 },
@@ -2636,12 +2588,12 @@ coinValue = 1, --1/3,
 level = 3,
 craftLevel = 10,
 damages = {
-	wood = 15,
-	lifeforms = 12,
-	woodStructure = 15,
+	wood = 25,
+	lifeforms = 14,
+	woodStructure = 25,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Iron"] = 2, ["Wood"] = 2,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450128725",
 },
@@ -2654,12 +2606,12 @@ useType = "Slash",
 level = 4,
 craftLevel = 20,
 damages = {
-	wood = 22,
-	lifeforms = 13,
-	woodStructure = 22,
+	wood = 40,
+	lifeforms = 18,
+	woodStructure = 40,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Steel"] = 2, ["Wood"] = 2,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450125195",
 },
@@ -2672,12 +2624,12 @@ useType = "Slash",
 level = 5,
 craftLevel = 40,
 damages = {
-	wood = 30,
-	lifeforms = 14,
-	woodStructure = 30,
+	wood = 60,
+	lifeforms = 20,
+	woodStructure = 60,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Adurite"] = 2, ["Wood"] = 2},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450129347",
 },
@@ -2696,7 +2648,7 @@ damages = {
 	--stoneStructure = 1,
 	spirit = 5,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Crystal"] = 3, ["Gold"] = 1},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1477935135",
 }, -- Iron Axe
@@ -2714,7 +2666,7 @@ damages = {
 	woodStructure = 50,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Magnetite"] = 2, ["Wood"] = 1,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496741073",
 },
@@ -2727,12 +2679,12 @@ useType = "Slash",
 level = 8,
 craftLevel = 90,
 damages = {
-	wood = 12,
-	lifeforms = 17,
-	woodStructure = 12,
+	wood = 60,
+	lifeforms = 20,
+	woodStructure = 60,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Emerald"] = 2, ["Wood"] = 1,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1786010180",
 },
@@ -2745,12 +2697,12 @@ useType = "Slash",
 level = 8,
 craftLevel = 91,
 damages = {
-	wood = 12,
-	lifeforms = 17,
-	woodStructure = 12,
+	wood = 60,
+	lifeforms = 20,
+	woodStructure = 60,
 	--stoneStructure = 1,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Pink Diamond"] = 2, ["Gold"] = 1,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2855214426",
 },
@@ -2776,12 +2728,12 @@ useType = "Slash",
 level = 1,
 craftLevel = 1,
 damages = {
-	stone = 6,
+	stone = 10,
 	lifeforms = 10,
 	--woodStructure = 1,
-	stoneStructure = 6,
+	stoneStructure = 10,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Log"] = 1, ["Wood"] = 1},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450138269",
 },
@@ -2794,12 +2746,12 @@ useType = "Slash",
 level = 2,
 craftLevel = 7,
 damages = {
-	stone = 10,
-	lifeforms = 10,
+	stone = 15,
+	lifeforms = 12,
 	--woodStructure = 1,
-	stoneStructure = 10,
+	stoneStructure = 15,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Stone"] = 3, ["Wood"] = 2},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450137338",
 },
@@ -2860,13 +2812,13 @@ coinValue = 1, --1/3,
 level = 3,
 craftLevel = 10,
 damages = {
-	stone = 15,
-	lifeforms = 12,
+	stone = 25,
+	lifeforms = 14,
 	--woodStructure = 1,
-	stoneStructure = 15,
+	stoneStructure = 25,
 },
 
-speed = 1/3,
+speed = 1/4,
 recipe = {["Iron"] = 2, ["Wood"] = 3},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450136070",
 },
@@ -2879,12 +2831,12 @@ useType = "Slash",
 level = 4,
 craftLevel = 20,
 damages = {
-	stone = 22,
-	lifeforms = 13,
+	stone = 40,
+	lifeforms = 18,
 	--woodStructure = 1,
-	stoneStructure = 22,
+	stoneStructure = 40,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Steel"] = 2, ["Wood"] = 4},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450131237",
 },
@@ -2897,12 +2849,12 @@ useType = "Slash",
 level = 5,
 craftLevel = 40,
 damages = {
-	stone = 30,
-	lifeforms = 14,
+	stone = 60,
+	lifeforms = 20,
 	--woodStructure = 1,
-	stoneStructure = 30,
+	stoneStructure = 60,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Adurite"] = 2, ["Wood"] = 5},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450135295",
 },
@@ -2915,13 +2867,13 @@ useType = "Slash",
 level = 6,
 craftLevel = 50,
 damages = {
-	stone = 7,
-	lifeforms = 13,
+	stone = 60,
+	lifeforms = 20,
 	--woodStructure = 1,
-	stoneStructure = 7,
+	stoneStructure = 60,
 	spirit = 5,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Crystal"] = 2, ["Gold"] = 1, },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1477934390",
 },
@@ -2934,13 +2886,12 @@ useType = "Slash",
 level = 7,
 craftLevel = 70,
 damages = {
-	stone = 50,
-	lifeforms = 15,
+	stone = 60,
+	lifeforms = 20,
 	--woodStructure = 1,
-	stoneStructure = 50,
-	spirit = 5,
+	stoneStructure = 60,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Magnetite"] = 2, ["Wood"] = 6},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496742487",
 },
@@ -2954,12 +2905,11 @@ level = 8,
 craftLevel = 90,
 damages = {
 	stone = 60,
-	lifeforms = 17,
+	lifeforms = 20,
 	--woodStructure = 1,
-	stoneStructure = 12,
-	spirit = 5,
+	stoneStructure = 60,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Emerald"] = 2, ["Wood"] = 7},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1786000619",
 },
@@ -2972,13 +2922,12 @@ useType = "Slash",
 level = 8,
 craftLevel = 91,
 damages = {
-	stone = 12,
-	lifeforms = 17,
+	stone = 60,
+	lifeforms = 20,
 	--woodStructure = 1,
-	stoneStructure = 12,
-	spirit = 5,
+	stoneStructure = 60,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Pink Diamond"] = 2, ["Gold"] = 2},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2855216187",
 },
@@ -3007,18 +2956,17 @@ toolType = "Club",
 coinValue = 1, --1,
 useType = "Slash",
 damages = {
-	wood = 6,
+	wood = 20,
 	stone = 6,
-	lifeforms = 50,
+	lifeforms = 60,
 	woodStructure = 12,
-	stoneStructure = 12,
+	stoneStructure = 20,
 	},
 speed = 1/2,
 craftLevel = 35,
 recipe = {["Crystal"] = 3},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496885779",
 },
-
 
 ["Magnetite Stick"] ={
 itemType = "tool",
@@ -3111,7 +3059,7 @@ recipe = {
 ["Emerald"] = 2,
 },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1755813799",
-}, -- end of Wood axe
+},
 
 ["Bow"] ={
 itemType = "tool",
@@ -3126,11 +3074,11 @@ damages = {
 	stoneStructure = 10,
 	},
 drawLength = 1,
-armorPierce = .5, -- proportion of resistance the bow ignores
+armorPierce = .5, -- proportion of absorb the bow ignores
 speed = .7,
 craftLevel = 11,
 recipe = {["Wood"] = 4,["Leaves"] = 2},
-projectileName = "Arrow",
+ammoTypes = {"Arrow",},
 velocityMagnitude = 300,
 pullSound = true,
 fireSound = "Fire",
@@ -3156,9 +3104,8 @@ damages = {
 drawLength = .85,
 speed = .7,
 craftLevel = 18,
-armorPierce = .4, -- proportion of resistance the bow ignores
 recipe = {["Wood"] = 4,["Leaves"] = 2,["Iron"] = 2,},
-projectileName = "Arrow",
+ammoTypes = {"Arrow",},
 velocityMagnitude = 350,
 pullSound = true,
 fireSound = "Fire",
@@ -3181,11 +3128,10 @@ damages = {
 	woodStructure = 15,
 	stoneStructure = 15,
 	},
-armorPierce = .8, -- proportion of armor to ignore
 speed = 3,
 drawLength = 2,
 craftLevel = 30,
-projectileName = "Bolt",
+ammoTypes = {"Bolt",},
 recipe = {["Wood"] = 4,["Log"] = 1, ["Leaves"] = 2, ["Steel"] = 3},
 velocityMagnitude = 400,
 pullSound = true,
@@ -3214,8 +3160,37 @@ armorPierce = .8, -- proportion of armor to ignore
 speed = 2.5,
 drawLength = 1.5,
 craftLevel = 70,
-projectileName = "Bolt",
+ammoTypes = {"Bolt",},
 recipe = {["Iron"] = 6,["Magnetite"] = 3},
+velocityMagnitude = 500,
+pullSound = true,
+fireSound = "Fire",
+idleAnim = "CrossbowHold",
+drawAnim = "BowDraw",
+postFireSound = true,
+drawAnimLength = 1,
+soundClass = "Crossbow",
+image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1496900827",
+},
+
+["God Crossbow"] ={
+itemType = "tool",
+toolType = "ranged",
+coinValue = 1, --20,
+useType = "Draw",
+damages = {
+	wood = 10,
+	stone = 10,
+	lifeforms = 100,
+	woodStructure = 25,
+	stoneStructure = 25,
+	},
+armorPierce = .8, -- proportion of armor to ignore
+speed = 2.5,
+drawLength = 1.5,
+craftLevel = 70,
+ammoTypes = {"Gold",},
+recipe = {["Crystal"] = 3, ["Gold"] = 3},
 velocityMagnitude = 500,
 pullSound = true,
 fireSound = "Fire",
@@ -3233,17 +3208,16 @@ toolType = "ranged",
 coinValue = 1, --1,
 useType = "Draw",
 damages = {
-	wood = 2,
-	stone = 2,
-	lifeforms = 15,
+	wood = 5,
+	stone = 5,
+	lifeforms = 10,
 	woodStructure = 5,
 	stoneStructure = 5,
 	},
-armorPierce = 1, -- proportion of armor to ignore
 speed = .7,
 drawLength = 2,
 craftLevel = 1,
-projectileName = "Stone",
+ammoTypes = {"Stone","Ice Cube","Wood"},
 recipe = {["Leaves"] = 3},
 velocityMagnitude = 270,
 pullSound = true,
@@ -3256,34 +3230,33 @@ soundClass = "Sling",
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1473096402",
 },
 
-["Ice Scoop"] ={
-itemType = "tool",
-toolType = "ranged",
-coinValue = 1, --1,
-useType = "Draw",
-damages = {
-	wood = 2,
-	stone = 2,
-	lifeforms = 30,
-	woodStructure = 5,
-	stoneStructure = 5,
-	},
-armorPierce = .5, -- proportion of armor to ignore
-speed = 1,
-drawLength = 1.5,
-craftLevel = 1,
-projectileName = "Ice Cube",
-recipe = {["Ice Cube"] = 3},
-velocityMagnitude = 350,
-pullSound = true,
-fireSound = "Fire",
---idleAnim = "BowHold",
-drawAnim = "SlingDraw",
-drawAnimLength = 1,
+--["Ice Scoop"] ={
+--itemType = "tool",
+--toolType = "ranged",
+--coinValue = 1, --1,
+--useType = "Draw",
+--damages = {
+--	wood = 2,
+--	stone = 2,
+--	lifeforms = 30,
+--	woodStructure = 5,
+--	stoneStructure = 5,
+--	},
+--speed = 1,
+--drawLength = 1.5,
+--craftLevel = 1,
+--ammoTypes = "Ice Cube",
+--recipe = {["Ice Cube"] = 3},
+--velocityMagnitude = 350,
+--pullSound = true,
+--fireSound = "Fire",
+----idleAnim = "BowHold",
+--drawAnim = "SlingDraw",
+--drawAnimLength = 1,
 drawAnimSlow = .1,
-soundClass = "Sling",
-image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1473096402",
-},
+--soundClass = "Sling",
+--image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1473096402",
+--},
 
 ["War Horn"] ={
 itemType = "tool",
@@ -3318,7 +3291,7 @@ recipe = {
 ["Iron"] =2,
 },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450112367",
-}, -- end of Wood axe
+},
 
 ["Battle Axe"] ={
 itemType = "tool",
@@ -3339,7 +3312,7 @@ recipe = {
 ["Steel"] =2,
 },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1450122748",
-}, -- end of Wood axe
+},
 
 ["War Hammer"] ={
 itemType = "tool",
@@ -3361,7 +3334,7 @@ recipe = {
 ["Adurite"] =4,
 },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1460152987",
-}, -- end of Wood axe
+},
 
 ["Peeper Pop Hammer"] ={
 itemType = "tool",
@@ -3383,7 +3356,7 @@ recipe = {
 ["Wood"] = 2,
 },
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=3099454481",
-}, -- end of Wood axe
+},
 
 ["Berry"] ={
 pickupSound = "Pickup",
@@ -3459,8 +3432,6 @@ itemType = "food",
 coinValue = 1, --1/8,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498918721",
 },
-
-
 
 ["Cloudberry"] ={
 pickupSound = "Pickup",
@@ -3854,7 +3825,6 @@ multiPickup = {"Pumpkin","Pumpkin","Pumpkin"},
 itemType = "crop",
 },
 
-
 ["Jelly Crop"] = {
 multiPickup = {"Log","Leaves","Jelly","Jelly",},
 itemType = "crop",
@@ -3907,7 +3877,7 @@ image = "",
 
 ["Big Tree"] ={
 alias = "Tree",
-health = 120,
+health = 140,
 susceptions = {wood = true,},
 drops = {"Log","Log","Log","Wood","Wood","Wood","Leaves"},
 essence = 2,
@@ -3925,7 +3895,7 @@ image = "",
 },
 
 ["Jelly Tree"] ={
-health = 150,
+health = 300,
 susceptions = {wood = true,},
 drops = {"Jelly","Jelly","Jelly"},
 essence = 4,
@@ -3955,7 +3925,7 @@ image = "",
 },
 
 ["Sun Tree"] ={
-health = 100,
+health = 200,
 susceptions = {wood = true,},
 drops = {
 	"Log","Log",
@@ -3968,7 +3938,7 @@ image = "",
 },
 
 ["Feather Tree"] ={
-health = 50,
+health = 60,
 susceptions = {wood = true,},
 essence = 2,
 drops = {
@@ -3981,7 +3951,7 @@ image = "",
 },
 
 ["Petrified Tree"] = {
-health = 200,
+health = 260,
 essence = 3,
 susceptions = {stone = true},
 drops = {
@@ -3992,7 +3962,7 @@ image = "",
 },
 
 ["Old God"] = {
-health = 5000,
+health = 12000,
 susceptions = {stone = true},
 level = 4,
 drops = {
@@ -4004,7 +3974,6 @@ regenDuration = 1000,
 image = "",
 noShake = true,
 },
-
 
 ["Hateful God"] = {
 health = 5000,
@@ -4088,7 +4057,6 @@ regenDuration = 720,
 image = "",
 },
 
-
 --["Spirit Lock"] = {
 --health = 4000,
 --susceptions = {stone = true},
@@ -4120,7 +4088,6 @@ regenDuration = 7200,
 image = "",
 noShake = true,
 },
-
 
 ["Bush"] ={
 health = 30,
@@ -4380,8 +4347,6 @@ image = "",
 alias = "Ant Mound",
 },
 
-
-
 ["Gold Stone"] ={
 health = 200,
 susceptions = {stone = true,},
@@ -4460,7 +4425,6 @@ alias = "Ice Chunk",
 regenDuration = 240,
 image = "",
 },
-
 
 ["Adurite Rich Rock"] ={
 health = 250,
@@ -4547,9 +4511,7 @@ regenDuration = 120,
 image = "",
 },
 
-
 -- NODES
-
 ["Stone Node"] ={
 health = 50,
 --alias = "Lode",
@@ -4560,7 +4522,6 @@ drops = {"Stone","Stone","Stone","Stone",},
 regenDuration = 300,
 image = "",
 },
-
 
 ["Crystal Lode"] ={
 health = 2000,
@@ -4584,7 +4545,6 @@ drops = {"Coal","Coal"},
 regenDuration = 300,
 image = "",
 },
-
 
 ["Iron Node"] ={
 health = 100,
@@ -4712,7 +4672,6 @@ regenDuration = 90,
 image = "",
 },
 
-
 ["Hut Rubble"] = {
 health = 25,
 susceptions = {woodStructure = true},
@@ -4835,10 +4794,9 @@ possibleDrops = {
 	{name = "Stone",min = 3,max = 6},
 	{name = "Wood",min = 2,max = 3},
 	{name = "Berry", min = 6, max = 6},
-}, -- end of possibledrops
+	}, -- end of possibledrops
 image = "",
 },
-
 
 ["Good Chest"] = {
 itemType = "dropChest",
@@ -4857,7 +4815,6 @@ possibleDrops = {
 }, -- end of possibledrops
 image = "",
 },
-
 
 ["Great Chest"] = {
 itemType = "dropChest",
@@ -4913,7 +4870,6 @@ possibleDrops = {
 }, -- end of possibledrops
 image = "",
 },
-
 
 --["Essence Chest"] = {
 --itemType = "dropChest",
@@ -5010,7 +4966,6 @@ health = 15,
 susceptions = {woodStructure = true},
 image = "",
 },
-
 
 -- TRIBE STUFF
 ["Tribe Totem"] ={
@@ -5128,7 +5083,6 @@ shopOrder = 13,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=323473521"
 },
 
-
 ["Am Peeper"] = {
 -- cost = 10000,
 cosmetic = true,
@@ -5153,7 +5107,6 @@ shopOrder = 12,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498943693"
 },
 
-
 ["Pilgrim"] = {
 cosmetic = true,
 locus = "hat",
@@ -5175,7 +5128,6 @@ locus = "hat",
 shopOrder = 15,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=3024806415"
 },
-
 
 ["Am Shelly"] = {
 cost = 2000,
@@ -5273,7 +5225,6 @@ shopOrder = 21,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=138932314"
 },
 
-
 -- MOJO SECTION
 ["God Axe"] ={
 itemType = "tool",
@@ -5286,16 +5237,16 @@ mojoRecipe = true,
 mojoCost = 2,
 description = "The most powerful Axe",
 damages = {
-	wood = 50,
-	lifeforms = 30,
-	woodStructure = 50,
+	wood = 100,
+	lifeforms = 24,
+	woodStructure = 100,
 	--stoneStructure = 1,
+	spirit = 10,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Crystal"] = 3, ["Gold"] = 12,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1963744204",
 },
-
 
 ["God Pick"] ={
 itemType = "tool",
@@ -5308,17 +5259,16 @@ description = "The most powerful Pick",
 level = 9,
 craftLevel = 1,
 damages = {
-	stone = 50,
-	lifeforms = 30,
+	stone = 100,
+	lifeforms = 24,
 	--woodStructure = 1,
-	stoneStructure = 50,
-	spirit = 5,
+	stoneStructure = 22,
+	spirit = 10,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {["Crystal"] = 3, ["Gold"] = 12,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1963745976",
 },
-
 
 ["OOF Horn"] = {
 itemType = "tool",
@@ -5337,7 +5287,6 @@ recipe = {["Crystal"] = 2,["Gold"] = 9,},
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1839213487",
 },
 
-
 ["Sparkles"] = {
 description = "All that glitters",
 mojoCost = 1,
@@ -5350,7 +5299,6 @@ description = "50% slower hunger drain, +1 HP every 3 seconds",
 mojoCost = 3,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=1963635914",
 },
-
 
 ["Water Walker"] = {
 description = "Water no longer slows movement speed.",
@@ -5456,24 +5404,23 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 },
 
 ["Void Bag"] ={
-pickupSound = "Rough Cloth",
-itemType = "armor",
-locus = "bag",
-maxLoad = 1000,-- 400,
-pieces = {
-"Void Bag"
+	pickupSound = "Rough Cloth",
+	itemType = "armor",
+	voodooRegen = 1,
+	locus = "bag",
+	maxLoad = 1000,-- 400,
+	pieces = {
+		"Void Bag"
+	},
+	craftLevel = 100,
+	recipe = {
+		["Magnetite"] = 6,
+		["Void Shard"] = 6,
+		["Jelly"] = 24,
+	},
+	craftQuantity = 1,
+	image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2022495864",
 },
-craftLevel = 100,
-recipe = {
-["Magnetite"] = 6,
-["Void Shard"] = 6,
-["Jelly"] = 24,
-},
- -- 0,
-craftQuantity = 1,
-image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=2022495864",
-},
-
 
 ["God Hut"] ={
 itemType = "building",
@@ -5510,7 +5457,7 @@ damages = {
 	woodStructure = 30,
 	stoneStructure = 30,
 	},
-speed = 1/3,
+speed = 1/4,
 recipe = {
 ["Crystal"] = 9,
 ["Gold"] = 30,
@@ -5520,18 +5467,18 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 
 ["Energy Bolt"]  ={
 voodooSpell = true,
-damage = 35,
-voodooCost = 30,
+damage = 70,
+voodooCost = 100,
 description = "ENERGY BOLT - Casts a bolt of void energy for 30 Voodoo, exploding upon contact with solid matter for 30 AOE damage.",
 image = "rbxgameasset://Images/lightning-slashes (1)",
 },
 
 ["Energy Shield"]  ={
-  voodooSpell = true,
-  absorbs = 10,
-  voodooCost = 60,
-  description = "ENERGY SHIELD - Shields you in a sphere of energy for 60 Voodoo, shielding you from the next 10 attacks. Lasts 30 seconds.",
-  image = "rbxgameasset://Images/armor-upgrade",
+voodooSpell = true,
+absorb = 10,
+voodooCost = 60,
+description = "ENERGY SHIELD - Shields you in a sphere of energy for 60 Voodoo, shielding you from the next 10 attacks. Lasts 30 seconds.",
+image = "rbxgameasset://Images/armor-upgrade",
 },
 
 ["Void Cloak"]  ={
@@ -5541,9 +5488,6 @@ voodooCost = 60,
 description = "VOID CLOAK - Renders you nearly invisible for 30 seconds. Costs 60 Voodoo.",
 image = "rbxgameasset://Images/invisible",
 },
-
-
-
 
 } -- end of module
 
