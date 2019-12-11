@@ -1078,7 +1078,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["God Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-absorb = 45,
+absorb = 46,
 coinValue = 1, --1,
 mojoRecipe = true,
 mojoCost = 1,
@@ -1100,7 +1100,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Void Greaves"] ={
 itemType = "armor",
 locus = "legs",
-absorb = 18,
+absorb = 12,
 voodooRegen = 1,
 description = "Recipe for the God armor leg piece",
 coinValue = 1, --1,
@@ -1123,7 +1123,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Void Shroud"] ={
 itemType = "armor",
 locus = "head",
-absorb = 18,
+absorb = 12,
 voodooRegen = 1,
 coinValue = 1, --1,
 description = "Recipe for the God armor head piece",
@@ -1143,7 +1143,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Void Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-absorb = 18,
+absorb = 26,
 voodooRegen = 1,
 coinValue = 1, --1,
 pieces = {
