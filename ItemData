@@ -29,7 +29,7 @@ coinValue = 1, --1/6,
 ["Copper Coin"] ={
 pickupSound = "Pickup Coin A",
 itemType = "object", -- others include Tools and Buildings
-coinPickup = 2,
+coinPickup = 1,
 image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=4498226017",
 },
 
