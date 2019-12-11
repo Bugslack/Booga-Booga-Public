@@ -2339,7 +2339,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Stone Wall"] ={
 itemType = "building",
 deployable = true,
-health = 6000,
+health = 2000,
 craftLevel = 16,
 placement = "all",
 susceptions = {stoneStructure = true},
@@ -2354,7 +2354,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Iron Wall"] ={
 itemType = "building",
 deployable = true,
-health = 10000,
+health = 4000,
 craftLevel = 22,
 placement = "all",
 susceptions = {woodStructure = true,stoneStructure = true},
@@ -2370,7 +2370,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Iron Gate"] ={
 itemType = "building",
 deployable = true,
-health = 10000,
+health = 4000,
 craftLevel = 22,
 placement = "all",
 susceptions = {woodStructure = true, stoneStructure = true},
@@ -2386,7 +2386,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Iron Turret"] ={
 itemType = "building",
 deployable = true,
-health = 20000,
+health = 4000,
 craftLevel = 22,
 placement = "all",
 susceptions = {woodStructure = true, stoneStructure = true},
@@ -2403,7 +2403,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Magnetite Wall"] ={
 itemType = "building",
 deployable = true,
-health = 50000,
+health = 6000,
 craftLevel = 70,
 placement = "all",
 susceptions = {stoneStructure = true},
@@ -2419,7 +2419,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Magnetite Gate"] ={
 itemType = "building",
 deployable = true,
-health = 50000,
+health = 6000,
 craftLevel = 70,
 placement = "all",
 susceptions = {stoneStructure = true},
@@ -2435,7 +2435,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Ice Wall"] ={
 itemType = "building",
 deployable = true,
-health = 2000,
+health = 1100,
 placement = "all",
 craftLevel = 4,
 susceptions = {stoneStructure = true},
@@ -2451,7 +2451,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Stone Gate"] ={
 itemType = "building",
 deployable = true,
-health = 6000,
+health = 2000,
 placement = "all",
 craftLevel = 16,
 susceptions = {stoneStructure = true},
@@ -2482,7 +2482,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Wood Wall"] ={
 itemType = "building",
 deployable = true,
-health = 800,
+health = 1000,
 placement = "all",
 craftLevel = 4,
 susceptions = {woodStructure = true},
@@ -2497,7 +2497,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Wood Gate"] ={
 itemType = "building",
 deployable = true,
-health = 800,
+health = 1000,
 placement = "all",
 craftLevel = 4,
 susceptions = {woodStructure = true},
