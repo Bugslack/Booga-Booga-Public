@@ -556,7 +556,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Leaf Pants"] ={
 itemType = "armor",
 locus = "legs",
-absorb = 3,
+absorb = 2,
 coinValue = 1, --1/5,
 pieces = {
 "Leaf Pants Left Foot",
@@ -602,7 +602,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 itemType = "armor",
 locus = "torso",
 coinValue = 1, --1/5,
-absorb = 3,
+absorb = 4,
 pieces = {
 "Leaf Shirt",
 },
@@ -617,7 +617,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Hide Pants"] ={
 itemType = "armor",
 locus = "legs",
-absorb = 6,
+absorb = 4,
 coinValue = 1, --1/4,
 pieces = {
 "Hide Pants Left Foot",
@@ -636,7 +636,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Hide Shirt"] ={
 itemType = "armor",
 locus = "torso",
-absorb = 6,
+absorb = 8,
 coinValue = 1, --1/4,
 pieces = {
 "Hide Shirt",
