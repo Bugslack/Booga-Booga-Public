@@ -762,7 +762,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Adurite Greaves"] ={
 itemType = "armor",
 locus = "legs",
-absorb = 12,
+absorb = 15,
 coinValue = 1, --1,
 pieces = {
 "Adurite Greaves Left Foot",
@@ -783,7 +783,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Adurite Helmet"] ={
 itemType = "armor",
 locus = "head",
-absorb = 12,
+absorb = 15,
 coinValue = 1, --1,
 pieces = {
 "Adurite Helmet",
@@ -800,7 +800,7 @@ image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=
 ["Adurite Chestplate"] ={
 itemType = "armor",
 locus = "torso",
-absorb = 12,
+absorb = 30,
 coinValue = 1, --1,
 pieces = {
 "Adurite Chestplate",
